@@ -1,0 +1,8 @@
+.arraysPage {}
+
+.arraysPage>.studentList {}
+
+.arraysPage>.studentList>.student {
+    padding: 10px;
+    border: 1px solid grey;
+}
