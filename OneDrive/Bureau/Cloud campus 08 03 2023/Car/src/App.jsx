@@ -8,6 +8,9 @@ import Computer from './pages/Computer'
 import Background from './pages/Background'
 import Arrays from './pages/Arrays'
 import Movies from './pages/Movies'
+import StateUp from './pages/StateUp'
+import Converter from './pages/Converter'
+import TodoList from './pages/TodoList'
 
 
 function App() {
@@ -23,6 +26,9 @@ function App() {
                 <Route path="/background" element={<Background />} />
                 <Route path="/arrays" element={<Arrays />} />
                 <Route path="/movies" element={<Movies />} />
+                <Route path="/stateup" element={<StateUp />} />
+                <Route path="/converter" element={<Converter />} />
+                <Route path="/todolist" element={<TodoList />} />
             </Routes>
         </BrowserRouter >
     )
